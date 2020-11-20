@@ -123,6 +123,7 @@ class App extends Component {
 <li>Local Server to store login information</li>
 </ul>
 <p><strong>Technologies &amp; Tools</strong>: API, JSON, React, Animations, gulp, Sass, Photoshop</p>
+<hr></hr>
 <h2><a href="https://github.com/Samuel-Morgan-Tyghe/Creative-Portfolio">Creative Portfolio</a></h2>
 <p><em>My personal creative Portfolio made using Jekyll</em></p>
 <ul>
@@ -131,6 +132,7 @@ class App extends Component {
 <li>Liquid, Layouts, Custom Theme</li>
 </ul>
 <p><strong>Technologies &amp; Tools</strong>: Jekyll, Ruby, Git, Liquid, Themes</p>
+<hr></hr>
 <h2><a href="https://github.com/Samuel-Morgan-Tyghe/Weather-App">Weather-App</a></h2>
 <p><em>An App for checking the Weather in 3 different cities.</em></p>
 <ul>
@@ -139,6 +141,7 @@ class App extends Component {
 <li>Less and Bootstrap.</li>
 </ul>
 <p><strong>Technologies &amp; Tools</strong>: HTML5, LESS, Npm, Webpack, Gulp, Typescript, Promises, Api, Axios, HTTP, Moment.js, Git, Bootstrap, JSON.</p>
+<hr></hr>
 <h2><a href="https://automated-art.co.uk/">E-commerce platform: Automated-Art&nbsp;</a></h2>
 <p>Founder 2018 - Present</p>
 <p><em>An e-commerce Where I automate the creation, distribution and marketing on artwork.</em></p>
@@ -148,6 +151,7 @@ class App extends Component {
 <li>Plugin optimisation &amp; configuration.</li>
 </ul>
 <p><strong>Technologies &amp; Tools</strong>: Google Analytics, Google Vision API, Lightroom, FileZilla, Photoshop, Woo-commerce, Product CSV, W3 Total Cache.</p>
+<hr></hr>
 <h2><a href="https://github.com/Samuel-Morgan-Tyghe/Basic-Website-To-React">Web Design/Development: Side Room Recordings</a></h2>
 <p><em>A commercial website advertising the services of a portable recording studio, its playful approach includes P5js of different shapes of sound waves involved in recording.&nbsp;</em></p>
 <ul>
@@ -156,6 +160,7 @@ class App extends Component {
 <li>Fully Responsive Design</li>
 </ul>
 <p><strong>Technologies &amp; Tools</strong>: JavaScript, CSS, Html, p5.js, git-pages, Visual Studio Code.</p>
+<hr></hr>
 <h2><a href="https://github.com/Samuel-Morgan-Tyghe/Ambient-Tic-Tac-Toe">Gaming Project &ndash; Tic Tac Toe</a></h2>
 <p><em>A visual &amp; auditory remake of the traditional tic-tac-toe game, using Java swing GUI to incorporate interactive Gifs &amp; audio samples from exotic instruments.</em></p>
 <ul>
@@ -164,6 +169,7 @@ class App extends Component {
 <li>Use of Java algorithms &amp; data structures.</li>
 </ul>
 <p><strong>Technologies &amp; Tools</strong>: Java, Swing, AudioInputStream, AudioSystem, Clip, Color, GradientPaint, Graphics, Graphics2D.</p>
+<hr></hr>
 <h2><a href="https://github.com/Samuel-Morgan-Tyghe/Database-Create-And-Login">Database Project &ndash; Login DB</a></h2>
 <p><em>An application to simulate the secure login process, containing a Create Account &amp; Login page that stores user details on an online database using SQL PhpMyAdmin Passwords are encrypted using jBCrypt.</em></p>
 <ul>
@@ -172,6 +178,7 @@ class App extends Component {
 <li>End-to-end testing to discover usability, functionality &amp; security testing.</li>
 </ul>
 <p><strong>Technologies &amp; Tools</strong>: Java, SQL, JDBC, Encryption, JBCrypt, JUnit, Swing.</p>
+<hr></hr>
 <h2><a href="https://github.com/Samuel-Morgan-Tyghe/App-Droste">Droste Effect App - Multi-platform App</a></h2>
 <p><em>An interactive application allowing users to manipulate images using the droste effect, the app primarily uses processing.&nbsp;</em></p>
 <ul>
@@ -192,6 +199,7 @@ class App extends Component {
 <li>Self Initiated&nbsp;</li>
 <li>Loyal</li>
 </ul>
+<hr></hr>
 <h2>Freelance</h2>
 <p>Graphic Designer 2017 &ndash; Present</p>
 <p><em>I have been commissioned by musicians, charities &amp; music Venues to undertake tailor made, client led work. This required working &amp; sticking to deadlines despite changes to the client's requirements. To maintain high standards of quality, I kept up to date with the latest developments in creative software. This complimented my artistic ability &amp; passion for self development.</em></p>

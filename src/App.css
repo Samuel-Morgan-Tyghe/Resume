@@ -5,12 +5,8 @@
   src: url('./fonts/Spartan\ MB\ VF.ttf');
 }
 
-.app{
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: #E4DBD7;
+.App{
+  background-color: #F5B9C1;
 }
 
 .header{
@@ -32,17 +28,19 @@ width: 1080px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
   width: 100%;
   height: 100%;
   background-color: #F5B9C1;
   /* background-image: linear-gradient(150deg, #607D8B 0%, #9C27B0 100%, #ff1ff7 100%); */
-  box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05); */
   transform-style: preserve-3d;
   transition-timing-function: ease-in-out;
 }
 
 .Tilt-inner {
   font-size: 100px;
+  border: 1px dashed white;
 }
 
 
@@ -78,7 +76,7 @@ background-color: #F5B9C1;
 }
 
 .summary{
-background-color: #C5A09C;
+background-color: #9C4B39;
 padding: 50px;
 border-radius: 5px;
 margin: 5px;
@@ -86,7 +84,7 @@ margin: 5px;
 }
 
 .tSkills{
-  background-color: #CABACA;
+  background-color: #C25A57;
   color: white;
   padding: 50px;
   border-radius: 5px;
@@ -96,7 +94,7 @@ margin: 5px;
 
 .pSkills{
   margin: 5px;
-  background-color: #C7AB9D;
+  background-color: #AE6268;
   padding: 50px;
   border-radius: 5px;
 }
@@ -104,7 +102,7 @@ margin: 5px;
 
 .projects{
   margin: 5px;
-  background-color: #9F8F7F;
+  background-color: #AF5267;
   padding: 50px;
   border-radius: 5px;
 }
@@ -133,12 +131,12 @@ margin: 5px;
   border-radius: 5px;
 }
 
-p, h1, h2, h3, ul {
+p, h1, h2, h3, ul, a {
   font-family: Spartan;
   color: #E4DBD7;
   } 
 
-p:hover, h1:hover, h2:hover, h3:hover, ul:hover {
+p:hover, h1:hover, h2:hover, h3:hover, ul:hover, a:hover {
 color: white;
 
 } 
