@@ -33,7 +33,8 @@ class App extends Component {
     return (
 
       <div className="App">
-        <div className="header">     
+        
+        <div className="header">    
       <Tilt className="Tilt" options={{ max : 55,  easing:         "cubic-bezier(.03,.98,.52,.99)"}}  >
       <img className="Tilt-inner TZ1" src={i2}     />
       <img className="Tilt-inner TZ2" src={i3}     />
