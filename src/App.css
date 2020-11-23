@@ -5,6 +5,12 @@
   src: url('./fonts/Spartan\ MB\ VF.ttf');
 }
 
+body{
+
+  margin: 0;
+  padding: 0;
+}
+
 .App{
   margin:auto;
   padding:auto;
@@ -12,10 +18,10 @@
   overflow: hidden;
 }
 
+
 .header{
   display: flex;
   align-items: center;
-  justify-content: center;
   width: 100vw;
   height: 100vh;
 
@@ -30,10 +36,18 @@ position: absolute;
 align-items: center;
 justify-content: center;
 width: 66%;
+user-select: none;
+
 }
 
 .Tilt {
+  cursor: crosshair;
+  user-select: none;
 
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 
   transform: translateZ(-800px   ) ;
   display: flex;
@@ -50,6 +64,8 @@ width: 66%;
 }
 
 .Tilt-inner {
+  user-select: none;
+
   /* border: 1px dashed white; */
   align-items: center;
   justify-content: center;
