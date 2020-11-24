@@ -88,7 +88,7 @@ import c20 from "./images/375px/20.webp";
 import c21 from "./images/375px/21.webp";
 import c1 from "./images/375px/1.webp";
 
-import './App.css'
+import "./App.css";
 
 import Tilt from "./tilt.js";
 
