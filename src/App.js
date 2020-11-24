@@ -239,6 +239,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <link rel='preload' src='./fonts/Spartan\ MB\ VF.ttf'></link> 
         <div className="header">
           <Tilt
             className="Tilt"
