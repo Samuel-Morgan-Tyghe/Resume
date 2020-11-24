@@ -1,5 +1,4 @@
 import "./App.css";
-import "./fonts/Spartan.ttf"
 import React, { Component } from "react";
 
 import i1 from "./images/1776px/1.webp";
