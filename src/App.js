@@ -88,6 +88,8 @@ import c20 from "./images/375px/20.webp";
 import c21 from "./images/375px/21.webp";
 import c1 from "./images/375px/1.webp";
 
+import './App.css'
+
 import Tilt from "./tilt.js";
 
 export const fourkRes = [
@@ -371,14 +373,16 @@ class App extends Component {
           <div className="summary">
             <h1>Summary</h1>
             <p>
-              I&rsquo;m a graduate from the Bath School Of Art &amp; Design with
-              a passion for software designing &amp; development using{" "}
-              <strong>Html</strong>, <strong>CSS</strong>,{" "}
-              <strong>JavaScript &amp; Java</strong>. I&rsquo;m looking for an
-              organisation that will fully use my drive &amp; ambition whilst
-              providing career advancement opportunities. I&rsquo;m a
-              self-motivated learner &amp; I have developed an understanding of
-              the following areas:
+              Since graduating from <em>Bath School Of Art And Design</em>, My
+              Professional Practice has expanded beyond
+              <strong> Graphic Design, Digital Collage, </strong>and{" "}
+              <strong>AI Art</strong> Into Software development. Preferring to
+              use <strong>React</strong>,<strong> SASS</strong>, and{" "}
+              <strong>Webpack</strong> to build <em>websites</em> and{" "}
+              <em>apps</em>, I&rsquo;m looking for an organisation that will
+              fully use my drive &amp; ambition whilst providing career
+              advancement opportunities. I&rsquo;m a self-motivated learner
+              &amp; constantly developing.
             </p>
           </div>
 
@@ -403,7 +407,7 @@ class App extends Component {
               <li>Typescript, npm, Promises, Axios, Moment.js, Bootstrap</li>
             </ul>
             <p>
-              <strong>I have general understanding of:&nbsp;</strong>
+              <strong>I have a general understanding of:&nbsp;</strong>
             </p>
             <ul>
               <li>HTTP, REST, OOP, effective algorithms</li>
@@ -418,37 +422,33 @@ class App extends Component {
               <li>Illustrator, Photoshop, Premier Pro, VSC</li>
               <li>Git on GitHub</li>
             </ul>
-            <p>
-              <strong>Operating Systems:</strong>
-            </p>
-            <ul>
-              <li>working on MacOS</li>
-              <li>comfortable with development on Windows</li>
-            </ul>
           </div>
 
           <div className="pSkills">
-            <h1>Personal skills</h1>
-            <p>
-              Stakeholder negotiation, requirement engineering, processes
-              coordination, ideas person, committed to self developing, team
-              player.
-            </p>
             <h1>Academic &amp; professional qualifications</h1>
             <ul>
-              <li>CodeAcademy: Learn Java, SoloLearn: Java, W3schools: Java</li>
+              <li>Curator Fringe Arts Bath "Automated" exhibition 2019</li>
               <li>
                 Bachelors in Arts (Fine Art), University of Bath School Of Art
-                &amp; Design, 2016.
+                &amp; Design, 2016
               </li>
+            </ul>
+            <p>
+              <strong>Notable Exhibitions:&nbsp;</strong>
+            </p>
+            <ul>
+              <li>
+                Fringe Arts Bath: Bath Open (2017/2018), Soft Rebellion (2018)
+              </li>
+              <li>Barge house: OXO Tower WARF (2016)</li>
             </ul>
             <p>
               <strong>Awards:&nbsp;</strong>
             </p>
             <ul>
-              <li>Black Swan Open Arts (Runner-Up 2015/2016)</li>
               <li>Fringe Arts Bath Open (Runner-Up 2017/2018)</li>
-              <li>London College Of Sculpture (Placement 2013)</li>
+              <li>Black Swan Open Arts (Runner-Up 2015/2016)</li>
+              <li>London College of Sculpture (Placement 2013)</li>
             </ul>
           </div>
 
@@ -461,12 +461,12 @@ class App extends Component {
             </h2>
             <p>
               <em>
-                React Application which Create, Reads, Updates and Deletes
+                React Application which Creates, Reads, Updates and Deletes
                 Accounts using a Rest API&nbsp;
               </em>
             </p>
             <ul>
-              <li>Rest API, JSON&nbsp;</li>
+              <li>Rest API and JSON&nbsp;</li>
               <li>React knowledge, hooks, states, etc</li>
               <li>Local Server to store login information</li>
             </ul>
@@ -474,7 +474,7 @@ class App extends Component {
               <strong>Technologies &amp; Tools</strong>: API, JSON, React,
               Animations, gulp, Sass, Photoshop
             </p>
-            <hr></hr>
+            <hr />
             <h2>
               <a href="https://github.com/Samuel-Morgan-Tyghe/Creative-Portfolio">
                 Creative Portfolio
@@ -484,15 +484,15 @@ class App extends Component {
               <em>My personal creative Portfolio made using Jekyll</em>
             </p>
             <ul>
-              <li>Jekyll, Gem, Config</li>
-              <li>Gh Pages, Image sizes, URL Configuration</li>
+              <li>Jekyll, Gem, Config.yml</li>
+              <li>GH Pages, Image optimisation, URL Configuration</li>
               <li>Liquid, Layouts, Custom Theme</li>
             </ul>
             <p>
               <strong>Technologies &amp; Tools</strong>: Jekyll, Ruby, Git,
               Liquid, Themes
             </p>
-            <hr></hr>
+            <hr />
             <h2>
               <a href="https://github.com/Samuel-Morgan-Tyghe/Weather-App">
                 Weather-App
@@ -513,7 +513,7 @@ class App extends Component {
               Webpack, Gulp, Typescript, Promises, Api, Axios, HTTP, Moment.js,
               Git, Bootstrap, JSON.
             </p>
-            <hr></hr>
+            <hr />
             <h2>
               <a href="https://automated-art.co.uk/">
                 E-commerce platform: Automated-Art&nbsp;
@@ -522,8 +522,8 @@ class App extends Component {
             <p>Founder 2018 - Present</p>
             <p>
               <em>
-                An e-commerce Where I automate the creation, distribution and
-                marketing on artwork.
+                An e-commerce where I automate the creation, distribution, and
+                marketing of artwork.
               </em>
             </p>
             <ul>
@@ -539,7 +539,7 @@ class App extends Component {
               Google Vision API, Lightroom, FileZilla, Photoshop, Woo-commerce,
               Product CSV, W3 Total Cache.
             </p>
-            <hr></hr>
+            <hr />
             <h2>
               <a href="https://github.com/Samuel-Morgan-Tyghe/Basic-Website-To-React">
                 Web Design/Development: Side Room Recordings
@@ -561,14 +561,15 @@ class App extends Component {
               <strong>Technologies &amp; Tools</strong>: JavaScript, CSS, Html,
               p5.js, git-pages, Visual Studio Code.
             </p>
-            <hr></hr>
-            <h2>
+            {/* <hr /> */}
+            {/* <h2>
               <a href="https://github.com/Samuel-Morgan-Tyghe/Ambient-Tic-Tac-Toe">
                 Gaming Project &ndash; Tic Tac Toe
               </a>
             </h2>
             <p>
               <em>
+                {" "}
                 A visual &amp; auditory remake of the traditional tic-tac-toe
                 game, using Java swing GUI to incorporate interactive Gifs &amp;
                 audio samples from exotic instruments.
@@ -584,7 +585,7 @@ class App extends Component {
               AudioInputStream, AudioSystem, Clip, Color, GradientPaint,
               Graphics, Graphics2D.
             </p>
-            <hr></hr>
+            <hr />
             <h2>
               <a href="https://github.com/Samuel-Morgan-Tyghe/Database-Create-And-Login">
                 Database Project &ndash; Login DB
@@ -615,16 +616,17 @@ class App extends Component {
               <strong>Technologies &amp; Tools</strong>: Java, SQL, JDBC,
               Encryption, JBCrypt, JUnit, Swing.
             </p>
-            <hr></hr>
+            <hr />
             <h2>
               <a href="https://github.com/Samuel-Morgan-Tyghe/App-Droste">
-                Droste Effect App - Multi-platform App
+                Droste Effects App - Multi-platform App
               </a>
             </h2>
             <p>
               <em>
+                {" "}
                 An interactive application allowing users to manipulate images
-                using the droste effect, the app primarily uses
+                using the Droste effect, the app primarily uses
                 processing.&nbsp;
               </em>
             </p>
@@ -641,7 +643,7 @@ class App extends Component {
             <p>
               <strong>Technologies &amp; Tools</strong>: Java, Processing,
               PApplet, PImage, PVector, Photoshop.
-            </p>
+            </p> */}
           </div>
 
           <div className="work">
@@ -669,7 +671,7 @@ class App extends Component {
               <li>Self Initiated&nbsp;</li>
               <li>Loyal</li>
             </ul>
-            <hr></hr>
+            <hr />
             <h2>Freelance</h2>
             <p>Graphic Designer 2017 &ndash; Present</p>
             <p>
@@ -712,7 +714,7 @@ class App extends Component {
             </p>
             <ul>
               <li>Analyse coding standards and implement non-fatal changes.</li>
-              <li>Follow visual standards to keep a uniformed look.</li>
+              <li>Follow visual standards to keep a uniform look.</li>
               <li>Android Library</li>
             </ul>
             <p>
@@ -732,7 +734,7 @@ class App extends Component {
                 Professional experience in film/TV performance &amp; production.
               </li>
               <li>Attending Creative Coding Meet-ups</li>
-              <li>Experimenting with software to create Art.</li>
+              <li>Experimenting with software to create art.</li>
               <li>Curating Exhibitions featuring Digital Art</li>
             </ul>
             <p>
