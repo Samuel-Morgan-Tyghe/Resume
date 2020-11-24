@@ -1,4 +1,3 @@
-import "./App.css";
 import React, { Component } from "react";
 
 import i1 from "./images/1776px/1.webp";
