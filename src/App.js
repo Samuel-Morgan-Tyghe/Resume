@@ -216,19 +216,15 @@ class App extends Component {
   updateImageVarSize() {
     if (this.state.width < 768) {
       this.setState({ imageVarSize: tabletRes });
-      console.log("tabletRes");
     }
     if (this.state.width >= 768) {
       this.setState({ imageVarSize: tabletRes });
-      console.log("tabletRes");
     }
     if (this.state.width >= 1024) {
       this.setState({ imageVarSize: laptopRes });
-      console.log("laptopRes");
     }
     if (this.state.width >= 1440) {
       this.setState({ imageVarSize: fourkRes });
-      console.log("fourkRes");
     }
   }
 
