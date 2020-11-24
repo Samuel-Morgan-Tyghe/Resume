@@ -542,7 +542,7 @@ class App extends Component {
             <hr />
             <h2>
               <a href="https://github.com/Samuel-Morgan-Tyghe/Basic-Website-To-React">
-                Web Design/Development: Side Room Recordings
+                Website: Side Room Recordings
               </a>
             </h2>
             <p>
