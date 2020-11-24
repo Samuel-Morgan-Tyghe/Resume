@@ -216,8 +216,8 @@ class App extends Component {
 
   updateImageVarSize() {
     if (this.state.width < 768) {
-      this.setState({ imageVarSize: phoneRes });
-      console.log("phoneRes");
+      this.setState({ imageVarSize: tabletRes });
+      console.log("tabletRes");
     }
     if (this.state.width >= 768) {
       this.setState({ imageVarSize: tabletRes });

@@ -43,12 +43,6 @@ user-select: none;
 .Tilt {
   cursor: crosshair;
   user-select: none;
-
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-
   transform: translateZ(-800px   ) ;
   display: flex;
   align-items: center;
