@@ -1,8 +1,7 @@
 
-
 @font-face {
-  font-family: Spartan;
-  src: url('./fonts/Spartan\ MB\ VF.ttf');
+  font-family: 'Spartan';
+  src: url('./fonts/Spartan.ttf');
 }
 
 body{
