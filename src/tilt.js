@@ -69,7 +69,7 @@ class Tilt extends Component {
       this.setState(Object.assign({}, this.state, {
         style : {
           ...this.state.style,
-          transform : "perspective(" + this.settings.perspective + "px) " + "rotateX(0deg) " + "rotateY(0deg) " + "scale3d(1, 1, 1)" }
+          transform : "perspective(" + this.settings.perspective + "px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)" }
       }))
     });
   }

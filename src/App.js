@@ -541,6 +541,33 @@ class App extends Component {
             </p>
             <hr />
             <h2>
+              <a href="https://samuel-morgan-tyghe.github.io/3d-Desk-CV/dist/index.html">
+                3D-CV
+              </a>
+            </h2>
+            <p>
+              <em>
+                An arrangement of projects displayed using three.js Library
+              </em>
+            </p>
+            <ul>
+              <li>
+                Optimisation for GPU and Loading times, clean coding, file
+                optimisation.
+              </li>
+              <li>Model Creation, lighting, geometry, material, textures.</li>
+              <li>
+                Css3d, Ray-casting , API's, p5js, baking, loading manager, post
+                processing.
+              </li>
+            </ul>
+            <p>
+              <strong>Technologies &amp; Tools</strong>: Blender, Three.js,
+              WebGL, p5js, API, webpack, threex, draco-compression, basis
+              compression, gsap, moment.js, XML, RSS, Photoshop, wordpress.
+            </p>
+            <hr />
+            <h2>
               <a href="https://github.com/Samuel-Morgan-Tyghe/Basic-Website-To-React">
                 Website: Side Room Recordings
               </a>
