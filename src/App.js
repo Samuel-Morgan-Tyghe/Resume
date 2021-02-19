@@ -455,10 +455,37 @@ class App extends Component {
           <div className="projects">
             <h1>Project &amp; work experience</h1>
             <h2>
+              <a href="https://automated-art.co.uk/">
+                E-commerce platform: Automated-Art&nbsp;
+              </a>
+            </h2>
+            <p>Founder 2018 - Present</p>
+            <p>
+              <em>
+                An e-commerce where I automate the creation, distribution, and
+                marketing of artwork. Created Using WordPress.
+              </em>
+            </p>
+            <ul>
+              <li>
+                Solely responsible for designing &amp; developing the initial
+                platform.
+              </li>
+              <li>FTP management.</li>
+              <li>Plugin optimisation &amp; configuration.</li>
+            </ul>
+            <p>
+              <strong>Technologies &amp; Tools</strong>: Google Analytics,
+              Google Vision API, Lightroom, FileZilla, Photoshop, Woo-commerce,
+              Product CSV, W3 Total Cache.
+            </p>
+            <hr />
+            <h2>
               <a href="https://github.com/Samuel-Morgan-Tyghe/Api-Account-App">
                 CRUD / Api-Account-App
               </a>
             </h2>
+            <p>2020-present</p>
             <p>
               <em>
                 React Application which Creates, Reads, Updates and Deletes
@@ -480,6 +507,7 @@ class App extends Component {
                 Creative Portfolio
               </a>
             </h2>
+            <p>2020-present</p>
             <p>
               <em>My personal creative Portfolio made using Jekyll</em>
             </p>
@@ -498,6 +526,8 @@ class App extends Component {
                 Weather-App
               </a>
             </h2>
+            <p>2020-present</p>
+
             <p>
               <em>An App for checking the Weather in 3 different cities.</em>
             </p>
@@ -515,36 +545,37 @@ class App extends Component {
             </p>
             <hr />
             <h2>
-              <a href="https://automated-art.co.uk/">
-                E-commerce platform: Automated-Art&nbsp;
+              <a href="https://github.com/Samuel-Morgan-Tyghe/Basic-Website-To-React">
+                Website: Side Room Recordings
               </a>
             </h2>
-            <p>Founder 2018 - Present</p>
+            <p>2020-present</p>
             <p>
               <em>
-                An e-commerce where I automate the creation, distribution, and
-                marketing of artwork.
+                A commercial website advertising the services of a portable
+                recording studio, its playful approach includes P5js of
+                different shapes of sound waves involved in recording.&nbsp;
               </em>
             </p>
+
             <ul>
-              <li>
-                Solely responsible for designing &amp; developing the initial
-                platform.
-              </li>
-              <li>FTP management.</li>
-              <li>Plugin optimisation &amp; configuration.</li>
+              <li>One-page application using React Frameworks.</li>
+              <li>Following best web dev practices</li>
+              <li>Fully Responsive Design</li>
             </ul>
             <p>
-              <strong>Technologies &amp; Tools</strong>: Google Analytics,
-              Google Vision API, Lightroom, FileZilla, Photoshop, Woo-commerce,
-              Product CSV, W3 Total Cache.
+              <strong>Technologies &amp; Tools</strong>: JavaScript, CSS, Html,
+              p5.js, git-pages, Visual Studio Code.
             </p>
             <hr />
+
             <h2>
               <a href="https://samuel-morgan-tyghe.github.io/3d-Desk-CV/dist/index.html">
                 3D-CV
               </a>
             </h2>
+            <p>2021</p>
+
             <p>
               <em>
                 An arrangement of projects displayed using three.js Library
@@ -566,28 +597,7 @@ class App extends Component {
               WebGL, p5js, API, webpack, threex, draco-compression, basis
               compression, gsap, moment.js, XML, RSS, Photoshop, wordpress.
             </p>
-            <hr />
-            <h2>
-              <a href="https://github.com/Samuel-Morgan-Tyghe/Basic-Website-To-React">
-                Website: Side Room Recordings
-              </a>
-            </h2>
-            <p>
-              <em>
-                A commercial website advertising the services of a portable
-                recording studio, its playful approach includes P5js of
-                different shapes of sound waves involved in recording.&nbsp;
-              </em>
-            </p>
-            <ul>
-              <li>One-page application using React Frameworks.</li>
-              <li>Following best web dev practices</li>
-              <li>Fully Responsive Design</li>
-            </ul>
-            <p>
-              <strong>Technologies &amp; Tools</strong>: JavaScript, CSS, Html,
-              p5.js, git-pages, Visual Studio Code.
-            </p>
+
             {/* <hr /> */}
             {/* <h2>
               <a href="https://github.com/Samuel-Morgan-Tyghe/Ambient-Tic-Tac-Toe">
