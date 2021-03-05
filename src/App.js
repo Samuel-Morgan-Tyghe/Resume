@@ -189,7 +189,6 @@ function App() {
         <WorkExperience />
         <Qualifications />
         <AlternativeExperience />
-        <Contribution />
         <Hobbies />
         <Contact />
       </div>
