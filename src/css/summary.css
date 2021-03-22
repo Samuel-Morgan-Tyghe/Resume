@@ -1,0 +1,44 @@
+.summaryPage {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5B9C1;
+  background-image: url('../images/CV-Gold.jpg');
+  background-image: url('../images/resume6-Current\ View.png');
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.summary {
+  width: 30%;
+  /* height: 75%; */
+  color: #FFFFFF;
+  text-align: right;
+  /* padding: 20px 10px 10px 50px; */
+  /* border-radius: 5px; */
+  /* margin: 5px; */
+  /* margin-top: 30px; */
+  /* z-index: 2; */
+  margin-left: 33%;
+  background-color: black;
+  background-color: #F5B9C1;
+  padding: 3em;
+  border-radius: 10px;
+
+}
+
+#summary3d {
+  display: flex;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.h3Substitute{
+  text-align: right;
+
+}

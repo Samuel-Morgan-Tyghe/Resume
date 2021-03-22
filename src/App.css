@@ -1,3 +1,5 @@
+
+@import "./css/cv.css";
 @font-face {
   font-family: "Spartan";
   src: url("./fonts/Spartan.ttf");
@@ -24,7 +26,7 @@ body {
   margin: auto;
 }
 
-img {
+.Tilt img {
   display: flex;
   position: absolute;
   align-items: center;
@@ -122,109 +124,7 @@ img {
   transform: translateZ(380px);
 }
 
-.cv {
-  /* transform: perspective(30000px) rotateY(45deg); */
-  /* box-shadow: 10px 20px 27px rgba(0, 0, 0, 0.05); */
-  margin-left: 15vw;
-  margin-right: 15vw;
-  /* padding: 200px; */
-  background-color: #f5b9c1;
-}
 
-.summary {
-  background-color: #9c4b39;
-  padding: 20px 10px 10px 50px;
-  border-radius: 5px;
-  margin: 5px;
-  margin-top: 30px;
-}
-
-/* .hoverTransition {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-} */
-/* .hoverTransition:hover {
-  padding: 30px 10px 20px 50px;
-} */
-
-.summaryTransition {
-  transition: opacity 1s linear;
-  transform: translate(0);
-  opacity: 1;
-}
-.hidden {
-  /* opacity: 0;
-  transition: opacity 1s, height 0 1s;
-  height: 0; */
-}
-
-.tSkills {
-  background-color: #c25a57;
-  color: white;
-  padding: 50px;
-  border-radius: 5px;
-  margin: 5px;
-}
-
-.pSkills {
-  margin: 5px;
-  background-color: #ae6268;
-  padding: 50px;
-  border-radius: 5px;
-}
-
-.projects {
-  margin: 5px;
-  background-color: #af5267;
-  padding: 50px;
-  border-radius: 5px;
-}
-.work {
-  margin: 5px;
-  background-color: #9c4b39;
-  padding: 50px;
-  border-radius: 5px;
-}
-.contribution {
-  margin: 5px;
-  background-color: #c25a57;
-  padding: 50px;
-  border-radius: 5px;
-}
-.hobbies {
-  margin: 5px;
-  background-color: #ae6268;
-  padding: 50px;
-  border-radius: 5px;
-}
-.details {
-  /* width: 100%; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 5px;
-  background-color: #af5267;
-  /* padding: 10px; */
-  border-radius: 5px;
-  /* position: -webkit-sticky; */
-  /* position: sticky; */
-  /* bottom: 1rem; */
-  /* align-self: flex-end; */
-}
-
-p,
-h1,
-h2,
-h3,
-ul,
-a {
-  font-family: Spartan;
-  color: #e4dbd7;
-  transform: translateZ(200px);
-}
 
 p:hover,
 h1:hover,
@@ -254,9 +154,6 @@ a:hover {
     width: 100%;
   }
 
-  .cv {
-    margin: auto;
-  }
 
   img {
     width: 100%;
@@ -267,3 +164,5 @@ a:hover {
   display: none;
   background-color: #9c4b;
 }
+
+
