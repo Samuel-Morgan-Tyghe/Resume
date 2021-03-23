@@ -96,24 +96,19 @@ p,
 ul {
   font-family: Spartan;
   color: #ffffff;
-  transform: translateZ(200px);
-  text-shadow: -2px 2px 1px #dea49c;
   font-size: 1em;
-
-  /* background-color: royalblue; */
 }
 
 h1,
 h2,
 h3,
 .h3Substitute {
-  font-family: "Fascinate", cursive;
   font-family: "Abril Fatface", cursive;
   color: #ffffff;
   font-size: 3em;
   font-stretch: expanded;
   letter-spacing: 5px;
-  text-shadow: -2px 2px 1px #dea49c;
-  /* background-color: royalblue; */
+  text-transform: uppercase;
+
 
 }

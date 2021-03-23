@@ -4,9 +4,25 @@ import TechnicalSkillsSVG from "../images/skills.svg";
 function TechnicalSkills() {
   return (
     <div className="tSkills">
-      <div className="textContainer">
-        <div className="innerTextContainer">
-          <h1>Technical skills</h1>
+      <div className="topContainer">
+        <div className="textContainer">
+          <nav class="cl-effect-17">
+            <a className="h3Substitute" data-hover="Technical skills">
+              Technical skills
+            </a>
+          </nav>
+        </div>
+
+        <div className="imgContainer">
+          {/* <hr /> */}
+          <img src={TechnicalSkillsSVG} alt="skills Logo" />
+          {/* <hr /> */}
+        </div>
+      </div>
+
+      <div className="bottomContainer">
+        <div className="outerContainer">
+        <div className="container">
 
           <p>
             <strong>
@@ -20,21 +36,20 @@ function TechnicalSkills() {
             <li>(1 year) Java, Junit </li>
             <li>(1 year) SASS (LESS), Webpack (gulp) </li>
           </ul>
+        </div>
+        <div className="container">
           <p>
             <strong>Other technologies I have experimented with are:</strong>
           </p>
           <ul>
-            <li>&nbsp;JSON, Node.js, JSX</li>
+            <li>JSON, Node.js, JSXm, three.js</li>
             <li>Typescript, npm, Promises, Axios, Moment.js, Bootstrap</li>
-          </ul>
-          <p>
-            <strong>I have a general understanding of:&nbsp;</strong>
-          </p>
-          <ul>
-            <li>HTTP, REST, OOP, effective algorithms</li>
-            <li>Unit testing, PHP</li>
+            <li>REST, OOP, effective algorithms</li>
+            <li>Unit testing, React Native</li>
             <li>SEO, Usability Experience</li>
           </ul>
+        </div>
+        <div className="container">
           <p>
             <strong>Tools that I use:</strong>
           </p>
@@ -45,11 +60,6 @@ function TechnicalSkills() {
           </ul>
         </div>
       </div>
-
-      <div className="imgContainer">
-        {/* <hr /> */}
-        <img src={TechnicalSkillsSVG} alt="skills Logo" />
-        {/* <hr /> */}
       </div>
     </div>
   );
