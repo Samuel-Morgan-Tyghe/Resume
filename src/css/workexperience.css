@@ -1,0 +1,79 @@
+.workExperience {
+  background-color: #0015EE;
+  /* color: black; */
+  /* position: relative; */
+  /* overflow:scroll; */
+  /* height: 200vh; */
+  /* height: 500px; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* position: fixed; */
+}
+.workExperience h1 {
+
+  position: absolute;
+  /* text-align: right; */
+  /* right: 3em; */
+  /* top: 3em; */
+  width: 50%;
+  right: 0;
+  top: 0;
+  /* background-color: black; */
+}
+
+.workExperienceInner {
+  height: 300vh;
+  margin-left: 9em;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: left;
+}
+/* .sticky {
+}
+.workExperienceInner h1 {
+  color: red;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.stickyContainer {
+  display: flex;
+  margin-top: 5vw;
+
+} */
+
+#root
+  > div
+  > div
+  > div.workExperience.sticky-wrapper
+  > div:nth-child(1)
+  > h1
+  > div
+  > canvas {
+  /* background-color: yellow; */
+  /* width: 800px; */
+  /* height: 800px; */
+  width: 100vw;
+  height: 100vh;
+  /* position:relative; */
+  /* position: absolute; */
+  text-align: right;
+  /* right: 3em; */
+  /* top: 13em; */
+}
+
+#root > div > div > div.workExperience.sticky-wrapper > div:nth-child(1) > h1 > div > div{
+
+  mix-blend-mode: difference;
+}
+#root > div > div > div.workExperience.sticky-wrapper > div:nth-child(1) > h1 {
+
+  mix-blend-mode: difference;
+
+}

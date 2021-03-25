@@ -24,30 +24,37 @@ const Summary = ({ onToggle, showContent }) => {
   return (
     <div className="summaryPage">
       {/* <Summary3D /> */}
-
-      <div
-        className="summary hoverTransition"
-        id="summary"
-        onClick={() => onToggle()}
-      >
-        <nav class="cl-effect-6">
-          <a className='h3Substitute' data-hover="Summary">Summary</a>
-        </nav>
+      <div className="summaryOuter">
+        <div className="navbar">
+          <a>TechnicalSkills</a>
+          <a>WorkExperience</a>
+          <a>Qualifications</a>
+          <a>AlternativeExperience</a>
+          <a>Hobbies</a>
+          <a>Contact</a>
+        </div>
+      </div>
+      <div className="summaryOuter">
         <div
-        // style={showContent ? closedStyle : openedStyle}
-        // className={showContent ? "hidden" : ""}
+          className="summary hoverTransition"
+          id="summary"
+          onClick={() => onToggle()}
         >
-          <p>
-            5 years of
-            <strong> Graphic Design, Digital Collage, </strong>and{" "}
-            <strong>AI Art</strong> experience. 2 years working with Java, 1
-            year using <strong>React</strong>,<strong> SASS</strong>, and{" "}
-            <strong>Webpack</strong> to build <em>websites</em> and{" "}
-            <em>apps</em>, I&rsquo;m looking for an organisation that will fully
-            utilise my drive &amp; ambition whilst providing career advancement
-            opportunities. I&rsquo;m a self-motivated learner &amp; constantly
-            self-developing.
-          </p>
+          <h3>Summary</h3>
+          <div
+          // style={showContent ? closedStyle : openedStyle}
+          // className={showContent ? "hidden" : ""}
+          >
+            <p>
+              5 years of Graphic Design, Digital Collage, and AI Art experience.
+              2 years working with Java, 1 year using React, SASS, and Webpack
+              to build <em>websites</em> and <em>apps</em>, I&rsquo;m looking
+              for an organisation that will fully utilise my drive &amp;
+              ambition whilst providing career advancement opportunities.
+              I&rsquo;m a self-motivated learner &amp; constantly
+              self-developing.
+            </p>
+          </div>
         </div>
       </div>
     </div>

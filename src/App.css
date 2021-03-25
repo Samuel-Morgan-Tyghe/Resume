@@ -14,7 +14,7 @@ body {
   margin: auto;
   padding: auto;
   background-color: #f5b9c1;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .header {
@@ -126,14 +126,14 @@ body {
 
 
 
-p:hover,
+/* p:hover,
 h1:hover,
 h2:hover,
 h3:hover,
 ul:hover,
 a:hover {
   color: white;
-}
+} */
 
 @media only screen and (max-width: 768px) {
   /* .header{

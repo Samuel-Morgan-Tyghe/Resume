@@ -2,12 +2,34 @@ import ReactDOM from "react-dom";
 import React, { useRef, useState, Suspense } from "react";
 import { Canvas, useFrame, useLoader } from "react-three-fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import model from "../Model/CV-SUMMARY.glb";
+import model from "../Model/laptop.glb";
+// import { Html } from "@react-three/drei"
+import {
+  OrbitControls,
+  PerspectiveCamera,
+  OrthographicCamera,
+  Html,
+} from "@react-three/drei";
 
 function Model(props) {
+  console.log("🚀 ~ file: SummaryScene.js ~ line 10 ~ Model ~ props", props);
   const gltf = useLoader(GLTFLoader, model);
-  return <primitive object={gltf.scene} position={[-0.2, -1, 0]}  scale={[3,3,2]} />;
+  useFrame(() => {
+    //  console.log(gltf.scene.children[0].rotation.x = gltf.scene.children[0].rotation.y += 0.01 )
+    // gltf.scene.current.rotation.x = gltf.scene.current.rotation.y += 0.01;
+    // gltf.scene.children[0].rotation.x = gltf.scene.children[0].rotation.x += 0.01;
+  });
+  return (
+    <primitive
+      {...props}
+      object={gltf.scene}
+      position={[0, props.rotationNum / 450, -5]}
+      scale={[8, 8, 8]}
+      rotation={[-props.rotationNum / 500 + 0.3, 0, 0]}
+    />
+  );
 }
+
 function Box(props) {
   // This reference will give us direct access to the mesh
   const mesh = useRef();
@@ -36,68 +58,50 @@ function Box(props) {
   );
 }
 
-function KeyLight({ brightness, color }) {
-    return (
-      <rectAreaLight
-        width={3}
-        height={3}
-        color={color}
-        intensity={brightness}
-        position={[-2, 0, 5]}
-        lookAt={[0, 0, 0]}
-        penumbra={1}
-        castShadow
-      />
-    );
-  }
-function FillLight({ brightness, color }) {
-    return (
-      <rectAreaLight
-        width={3}
-        height={3}
-        intensity={brightness}
-        color={color}
-        position={[2, 1, 4]}
-        lookAt={[0, 0, 0]}
-        penumbra={2}
-        castShadow
-      />
-    );
-  }
-  
-  function RimLight({ brightness, color }) {
-    return (
-      <rectAreaLight
-        width={3}
-        height={3}
-        intensity={brightness}
-        color={color}
-        position={[1, 4, 2]}
-        // rotation={[0, 180, 0]}
-        lookAt={[0, 0, 0]}
-        penumbra={2}
-
-
-        castShadow
-      />
-    );
-  }
-
-export default function Summary3D() {
+export default function Summary3D({ rotateNumber }) {
   return (
-    <div id="summary3d">
-      <Canvas>
-        <ambientLight intensity={1.5} />
-        {/* <KeyLight brightness={2.6} color={"#C65D57"} /> */}
-        <pointLight intensity={1} position={[10, 15, 40]} />
-        {/* <FillLight brightness={3.6} color={"#bdefff"} /> */}
-        {/* <RimLight brightness={10.1} color={"#EEE9E9"} /> */}
-        {/* <Model /> */}
-        <Suspense fallback={<Box />}>{ <Model/>}</Suspense>
+    <div>
+      <h1 className="sticky-inner">
+        {/* Project &amp;
+        <br /> work experience */}
+        <Canvas>
+          <ambientLight intensity={1.5} />
+          <pointLight intensity={1.01} position={[10, 15, 40]} />
+          <Suspense fallback={<Box />}>
+            {<Model rotationNum={rotateNumber} />}
+          </Suspense>
+          <Html
+            position={[0.5, -0.1, -1]}
+            distanceFactor={1}
+            center={true}
+            fullscreen={true}
+          >
+            <p
+              style={{
+                width: "100%",
+                backgroundBlendMode: "overlay",
+                color: "white",
+                position: "initial",
+                textAlign: "right",
+                fontSize: "3em",
+                right: "0",
+              }}
+            >
+              Project &amp; work experience
+            </p>
+          </Html>
+          {/* <OrthographicCamera  makeDefault={true} position={[0, 0, 1]} /> */}
 
-        {/* <Box position={[-1.2, 0, 0]} /> */}
-        {/* <Box position={[1.2, 0, 0]} /> */}
-      </Canvas>
+          <PerspectiveCamera makeDefault={true} position={[0.1, 0, 2]} />
+          <OrbitControls
+            enableZoom={false}
+            screenSpacePanning
+            dampingFactor={0.1}
+            rotateSpeed={0.1}
+          />
+          {/* <PointerLockControls /> */}
+        </Canvas>
+      </h1>
     </div>
   );
 }

@@ -4,11 +4,11 @@ import TechnicalSkills from "./TechnicalSkills";
 import WorkExperience from "./WorkExperience";
 import Qualifications from "./Qualifications";
 import AlternativeExperience from "./AlternativeExperience";
-import Contribution from "./Contribution";
+// import Contribution from "./Contribution";
 import Hobbies from "./Hobbies";
 import Contact from "./Contact";
-import { useState, useEffect } from "react";
-import { Route, Link, BrowserRouter as Router } from "react-router-dom";
+import { useState } from "react";
+import {  Link, BrowserRouter as Router } from "react-router-dom";
 
 function CV() {
   const [showContent, setShowContent] = useState(false);
@@ -20,14 +20,14 @@ function CV() {
   };
   return (
     <div className="cv">
-        <Summary onToggle={toggleReminder} showContent={showContent} />
-
+      
+      <Summary onToggle={toggleReminder} showContent={showContent} />
       <TechnicalSkills />
-      {/* <WorkExperience />
-      <Qualifications />
+      <WorkExperience />
+      <Qualifications/>
       <AlternativeExperience />
       <Hobbies />
-      <Contact /> */}
+      <Contact />
       <Link to="/Resume" className="btn btn-4">
         Return
       </Link>

@@ -1,114 +1,14 @@
-@import "./summary.css";
 @import url("https://fonts.googleapis.com/css2?family=Fascinate&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 @import "./summary.css";
 @import "./button.css";
 @import "./tSkills.css";
 @import "../CreativeLinkEffects/css/component.css";
+@import './text.css';
+@import './workexperience.css';
+@import './qualifications.css';
+@import './sticky.css';
+@import './AlternativeExperience.css';
+@import './hobbies.css';
+@import './contact.css';
 
-.cv {
-  /* height: 100vh;
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-  margin-left: 15vw;
-  margin-right: 15vw;
-  background-color: #f5b9c1;
-  flex-direction: column; */
-}
-
-.hoverTransition {
-  /* -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; */
-}
-/* .hoverTransition:hover {
-    padding: 30px 10px 20px 50px;
-  } */
-/* 
-  .summaryTransition {
-    transition: opacity 1s linear;
-    transform: translate(0);
-    opacity: 1;
-  }
-  .hidden {
-    opacity: 0;
-    transition: opacity 1s, height 0 1s;
-    height: 0;
-  } */
-.hidden {
-  /* display: none; */
-}
-/* 
-.tSkills {
-  display: flex;
-  background-color: #c25a57;
-  color: white;
-  padding: 50px;
-  border-radius: 5px;
-  margin: 5px;
-}
-
-.pSkills {
-  margin: 5px;
-  background-color: #ae6268;
-  padding: 50px;
-  border-radius: 5px;
-}
-
-.projects {
-  margin: 5px;
-  background-color: #af5267;
-  padding: 50px;
-  border-radius: 5px;
-}
-.work {
-  margin: 5px;
-  background-color: #9c4b39;
-  padding: 50px;
-  border-radius: 5px;
-}
-.contribution {
-  margin: 5px;
-  background-color: #c25a57;
-  padding: 50px;
-  border-radius: 5px;
-}
-.hobbies {
-  margin: 5px;
-  background-color: #ae6268;
-  padding: 50px;
-  border-radius: 5px;
-} */
-/* .details {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 5px;
-  background-color: #af5267;
- border-radius: 5px;
- 
-} */
-
-p,
-ul {
-  font-family: Spartan;
-  color: #ffffff;
-  font-size: 1em;
-}
-
-h1,
-h2,
-h3,
-.h3Substitute {
-  font-family: "Abril Fatface", cursive;
-  color: #ffffff;
-  font-size: 3em;
-  font-stretch: expanded;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-
-
-}

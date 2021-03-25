@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^3.11.2",
     "animejs": "^3.2.1",
     "cra-template": "1.1.0",
     "framer-motion": "^3.10.0",
@@ -15,17 +16,17 @@
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "react-sticky-el": "^2.0.6",
     "react-three-fiber": "^5.3.19",
     "three": "^0.126.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "react-scripts test",
     "buildw": "webpack",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
