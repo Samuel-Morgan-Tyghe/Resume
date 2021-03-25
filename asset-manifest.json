@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.89cbfaab.chunk.css",
-    "main.js": "/Resume/static/js/main.824a62d3.chunk.js",
-    "main.js.map": "/Resume/static/js/main.824a62d3.chunk.js.map",
+    "main.css": "/Resume/static/css/main.ff5bd6ce.chunk.css",
+    "main.js": "/Resume/static/js/main.dcc2c189.chunk.js",
+    "main.js.map": "/Resume/static/js/main.dcc2c189.chunk.js.map",
     "runtime-main.js": "/Resume/static/js/runtime-main.86535d0c.js",
     "runtime-main.js.map": "/Resume/static/js/runtime-main.86535d0c.js.map",
-    "static/js/2.af391449.chunk.js": "/Resume/static/js/2.af391449.chunk.js",
-    "static/js/2.af391449.chunk.js.map": "/Resume/static/js/2.af391449.chunk.js.map",
+    "static/js/2.cc9cc554.chunk.js": "/Resume/static/js/2.cc9cc554.chunk.js",
+    "static/js/2.cc9cc554.chunk.js.map": "/Resume/static/js/2.cc9cc554.chunk.js.map",
     "index.html": "/Resume/index.html",
-    "static/css/main.89cbfaab.chunk.css.map": "/Resume/static/css/main.89cbfaab.chunk.css.map",
-    "static/js/2.af391449.chunk.js.LICENSE.txt": "/Resume/static/js/2.af391449.chunk.js.LICENSE.txt",
+    "static/css/main.ff5bd6ce.chunk.css.map": "/Resume/static/css/main.ff5bd6ce.chunk.css.map",
+    "static/js/2.cc9cc554.chunk.js.LICENSE.txt": "/Resume/static/js/2.cc9cc554.chunk.js.LICENSE.txt",
     "static/media/1.148a5c2f.webp": "/Resume/static/media/1.148a5c2f.webp",
     "static/media/1.2c6f5f3e.webp": "/Resume/static/media/1.2c6f5f3e.webp",
     "static/media/1.6a12c2d3.webp": "/Resume/static/media/1.6a12c2d3.webp",
@@ -94,12 +94,14 @@
     "static/media/9.75aa9520.webp": "/Resume/static/media/9.75aa9520.webp",
     "static/media/9.91d29c3d.webp": "/Resume/static/media/9.91d29c3d.webp",
     "static/media/9.b37e7fdf.webp": "/Resume/static/media/9.b37e7fdf.webp",
-    "static/media/App.css": "/Resume/static/media/Spartan.fb045bf8.ttf"
+    "static/media/App.css": "/Resume/static/media/resume6-Current View.b897fe23.png",
+    "static/media/laptop.6ff17d15.glb": "/Resume/static/media/laptop.6ff17d15.glb",
+    "static/media/skills.753f2580.svg": "/Resume/static/media/skills.753f2580.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.86535d0c.js",
-    "static/js/2.af391449.chunk.js",
-    "static/css/main.89cbfaab.chunk.css",
-    "static/js/main.824a62d3.chunk.js"
+    "static/js/2.cc9cc554.chunk.js",
+    "static/css/main.ff5bd6ce.chunk.css",
+    "static/js/main.dcc2c189.chunk.js"
   ]
 }
