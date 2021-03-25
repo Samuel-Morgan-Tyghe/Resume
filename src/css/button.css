@@ -1,0 +1,40 @@
+.btn {
+  background: none;
+  border: none;
+  border-bottom-width: 4px;
+  font-family: Spartan;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: inherit;
+  margin: 1em;
+  padding: 2em 2em;
+  text-transform: inherit;
+  transition: color 1s;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+}
+.btn-4 {
+  color: #eea163;
+}
+.btn-4:hover {
+  animation: zigzag 1s linear infinite;
+  background: linear-gradient(
+        135deg,
+        rgba(238, 161, 99, 0.25) 0.25em,
+        transparent 0.25em
+      ) -0.5em 0,
+    linear-gradient(225deg, rgba(238, 161, 99, 0.25) 0.25em, transparent 0.25em) -0.5em
+      0,
+    linear-gradient(315deg, rgba(238, 161, 99, 0.25) 0.25em, transparent 0.25em)
+      0 0,
+    linear-gradient(45deg, rgba(238, 161, 99, 0.25) 0.25em, transparent 0.25em)
+      0 0;
+  background-size: 0.75em 0.75em;
+  color: #63b0ee;
+}
+@keyframes zigzag {
+  100% {
+    background-position: 1em 0, 1em 0, -0.75em 0, -0.75em 0;
+  }
+}

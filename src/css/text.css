@@ -1,0 +1,20 @@
+
+p,
+ul,
+a {
+  font-family: Spartan;
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3 {
+  /* font-family: "Abril Fatface", cursive; */
+  font-family: Spartan;
+
+  /* color: #ffffff; */
+  font-size: 3em;
+  font-stretch: expanded;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}

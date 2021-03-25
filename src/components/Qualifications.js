@@ -2,7 +2,7 @@ import React from 'react'
 
 function Qualifications() {
     return (
-        <div className="pSkills">
+        <div className="qualifications">
         <h1>Academic &amp; professional qualifications</h1>
         <ul>
           <li>Curator Fringe Arts Bath "Automated" exhibition 2019</li>
