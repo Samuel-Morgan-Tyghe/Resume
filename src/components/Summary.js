@@ -66,16 +66,9 @@ const Summary = ({ onToggle, showContent }) => {
         </div>
       </div>
       <div className="summaryOuter">
-        <div
-          className="summary hoverTransition"
-          id="summary"
-          onClick={() => onToggle()}
-        >
+        <div className="summary" id="summary">
           <h3>Summary</h3>
-          <div
-          // style={showContent ? closedStyle : openedStyle}
-          // className={showContent ? "hidden" : ""}
-          >
+          <div>
             <p>
               5 years of Graphic Design, Digital Collage, and AI Art experience.
               2 years working with Java, 1 year using React, SASS, and Webpack
