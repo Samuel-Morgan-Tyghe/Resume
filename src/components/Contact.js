@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="details">
+    <div id='Contact'className="details">
       <p>
         <a href="tel:07376080332">07376080332</a>
       </p>

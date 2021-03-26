@@ -8,29 +8,60 @@ import AlternativeExperience from "./AlternativeExperience";
 import Hobbies from "./Hobbies";
 import Contact from "./Contact";
 import { useState } from "react";
-import {  Link, BrowserRouter as Router } from "react-router-dom";
+import { Link, BrowserRouter as Router } from "react-router-dom";
+import { slide as Menu } from "react-burger-menu";
 
 function CV() {
   const [showContent, setShowContent] = useState(false);
-
+  const showSettings = (event) => {
+    event.preventDefault();
+  };
   // trying toggle reminder to trigger css
   const toggleReminder = () => {
     setShowContent(!showContent);
     return showContent;
   };
   return (
-    <div className="cv">
-      
+    <div id="cv" className="cv">
+      <Menu >
+        <a className="menu-item" href="#cv">
+          Top
+        </a>
+        <a className="menu-item" href="#TechnicalSkills">
+          Technical Skills
+        </a>
+        <a className="menu-item" href="#WorkExperience">
+          Work Experience
+        </a>
+        <a className="menu-item" href="#Qualifications">
+          Qualifications
+        </a>
+        <a className="menu-item" href="#AlternativeExperience">
+          Alternative Experience
+        </a>
+        <a className="menu-item" href="#Hobbies">
+          Hobbies
+        </a>
+        <a className="menu-item" href="#Contact">
+          Contact
+        </a>
+        <Link className="menu-item" to="/Resume">
+          Tilt CV
+        </Link>
+        {/* <a onClick={showSettings} className="menu-item--small" href="">
+          Settings
+        </a> */}
+      </Menu>
       <Summary onToggle={toggleReminder} showContent={showContent} />
       <TechnicalSkills />
       <WorkExperience />
-      <Qualifications/>
+      <Qualifications />
       <AlternativeExperience />
       <Hobbies />
       <Contact />
-      <Link to="/Resume" className="btn btn-4">
-        Return
-      </Link>
+      {/* <a href="#cv" className="btn btn-4">
+        Top
+      </a> */}
     </div>
   );
 }

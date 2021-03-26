@@ -3,7 +3,7 @@ import TechnicalSkillsSVG from "../images/skills.svg";
 
 function TechnicalSkills() {
   return (
-    <div className="tSkills">
+    <div id='TechnicalSkills' className="tSkills">
       <div className="topContainer">
         <div className="textContainer">
           <h3>Technical skills</h3>

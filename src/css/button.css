@@ -15,6 +15,7 @@
   right: 1em;
 }
 .btn-4 {
+  z-index: 11111111111111111111111;
   color: #eea163;
 }
 .btn-4:hover {

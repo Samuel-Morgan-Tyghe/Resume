@@ -12,13 +12,8 @@ import {
 } from "@react-three/drei";
 
 function Model(props) {
-  console.log("🚀 ~ file: SummaryScene.js ~ line 10 ~ Model ~ props", props);
   const gltf = useLoader(GLTFLoader, model);
-  useFrame(() => {
-    //  console.log(gltf.scene.children[0].rotation.x = gltf.scene.children[0].rotation.y += 0.01 )
-    // gltf.scene.current.rotation.x = gltf.scene.current.rotation.y += 0.01;
-    // gltf.scene.children[0].rotation.x = gltf.scene.children[0].rotation.x += 0.01;
-  });
+  useFrame(() => {});
   return (
     <primitive
       {...props}
@@ -39,9 +34,7 @@ function Box(props) {
   const [active, setActive] = useState(false);
 
   // Rotate mesh every frame, this is outside of React without overhead
-  useFrame(() => {
-    mesh.current.rotation.x = mesh.current.rotation.y += 0.01;
-  });
+
 
   return (
     <mesh
@@ -75,20 +68,25 @@ export default function Summary3D({ rotateNumber }) {
             distanceFactor={1}
             center={true}
             fullscreen={true}
-          >
-            <p
-              style={{
-                width: "100%",
-                backgroundBlendMode: "overlay",
-                color: "white",
-                position: "initial",
-                textAlign: "right",
-                fontSize: "3em",
-                right: "0",
-              }}
+            style={{
+              color: "white",
+              textAlign: "right",
+              fontSize: "3em",
+              right: "0",
+              
+            }}
+          >Project &amp; work experience
+            {/* <p
+              // style={{
+              //   color: "white",
+              //   textAlign: "right",
+              //   fontSize: "3em",
+              //   right: "0",
+                
+              // }}
             >
               Project &amp; work experience
-            </p>
+            </p> */}
           </Html>
           {/* <OrthographicCamera  makeDefault={true} position={[0, 0, 1]} /> */}
 

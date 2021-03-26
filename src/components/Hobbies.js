@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hobbies() {
     return (
-        <div className="hobbies">
+        <div id='Hobbies'className="hobbies">
         <h1>Hobbies &amp; interests</h1>
         <ul>
           <li>

@@ -1,6 +1,6 @@
 .details {
   background-color: gold;
-  /* height: 100vh; */
+  height: 10vh;
   width: 100%;
   display: flex;
   flex-direction: row;
