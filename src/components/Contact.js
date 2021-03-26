@@ -24,6 +24,9 @@ function Contact() {
           Github
         </a>
       </p>
+      <a href="#cv" className="btn btn-4">
+        Top
+      </a>
     </div>
   );
 }

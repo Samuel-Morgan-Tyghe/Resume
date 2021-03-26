@@ -20,6 +20,7 @@
   height: 30px;
   left: 36px;
   top: 36px;
+  visibility: hidden;
 }
 
 /* Color/shape of burger icon bars */

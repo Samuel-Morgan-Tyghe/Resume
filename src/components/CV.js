@@ -59,9 +59,7 @@ function CV() {
       <AlternativeExperience />
       <Hobbies />
       <Contact />
-      {/* <a href="#cv" className="btn btn-4">
-        Top
-      </a> */}
+     
     </div>
   );
 }
