@@ -82,3 +82,11 @@ h3,
    background-color: royalblue; 
 
 } */
+
+
+@media only screen and (max-width: 1024px) {
+.summary{
+
+  width: 100%;
+}
+}

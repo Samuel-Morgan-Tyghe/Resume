@@ -1,5 +1,5 @@
 .workExperience {
-  background-color: #0015EE;
+  background-color: #0015ee;
   /* color: black; */
   /* position: relative; */
   /* overflow:scroll; */
@@ -12,7 +12,6 @@
   /* position: fixed; */
 }
 .workExperience h1 {
-
   position: absolute;
   /* text-align: right; */
   /* right: 3em; */
@@ -34,14 +33,19 @@
   text-align: left;
 }
 
-.container{
-
+.container {
   padding: 1em;
   margin: 1em;
 }
 
-#root > div > div > div.workExperience.sticky-wrapper.sticky > div:nth-child(1) > h1 > div > canvas{
-
+#root
+  > div
+  > div
+  > div.workExperience.sticky-wrapper.sticky
+  > div:nth-child(1)
+  > h1
+  > div
+  > canvas {
   cursor: all-scroll;
 }
 /* .sticky {
@@ -59,10 +63,17 @@
 
 } */
 
-#root > div > div > div.workExperience.sticky-wrapper > div:nth-child(1) > h1 > div > div > div{
-
- width: 1000px;
- height: 0;
+#root
+  > div
+  > div
+  > div.workExperience.sticky-wrapper
+  > div:nth-child(1)
+  > h1
+  > div
+  > div
+  > div {
+  width: 1000px;
+  height: 0;
 }
 
 #root
@@ -73,7 +84,7 @@
   > h1
   > div
   > canvas {
-    cursor: all-scroll;
+  cursor: all-scroll;
 
   /* background-color: yellow; */
   /* width: 800px; */
@@ -87,12 +98,32 @@
   /* top: 13em; */
 }
 
-#root > div > div > div.workExperience.sticky-wrapper > div:nth-child(1) > h1 > div > div{
-
+#root
+  > div
+  > div
+  > div.workExperience.sticky-wrapper
+  > div:nth-child(1)
+  > h1
+  > div
+  > div {
   mix-blend-mode: difference;
 }
 #root > div > div > div.workExperience.sticky-wrapper > div:nth-child(1) > h1 {
-
   mix-blend-mode: difference;
+}
 
+@media only screen and (max-width: 1024px) {
+  .workExperienceInner {
+    margin-left: 0;
+    justify-content: left;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sticky-inner {
+    display: none;
+  }
+  .workExperienceInner {
+    width: 100%;
+  }
 }

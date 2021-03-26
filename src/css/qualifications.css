@@ -6,4 +6,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* margin: auto; */
+}
+.qualifications h1{
+
+text-align: center;
 }

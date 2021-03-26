@@ -9,6 +9,8 @@
   background-color: #6c62fb;
   background-color: white;
 }
+
+
 .topContainer {
   display: flex;
   /* flex-direction: row; */
@@ -19,8 +21,10 @@
 
 }
 
+
 .textContainer {
   /* background-color: #6c62fb; */
+  /* height: 100%; */
   color: #6c62fb;
   padding: 1em;
   border-radius: 10px;
@@ -77,4 +81,24 @@
   color: black;
   color: white;
   text-shadow: none;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .topContainer {
+/* margin-left: 0; */
+/* justify-content: left; */
+  flex-direction: column;
+
+  }
+
+  .tSkills{
+    height: 100%;
+
+
+  }
+  .outerContainer{
+
+    width: 100%;
+  }
 }

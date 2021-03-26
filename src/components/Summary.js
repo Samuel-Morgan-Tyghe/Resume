@@ -35,7 +35,7 @@ const Summary = ({ onToggle, showContent }) => {
           </nav>{" "}
           <nav class="cl-effect-21">
             <a class="summary-menu-item" href="#WorkExperience">
-              WorkExperience
+              Work Experience
             </a>
           </nav>{" "}
           <nav class="cl-effect-21">
