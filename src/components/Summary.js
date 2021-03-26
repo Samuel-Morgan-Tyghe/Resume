@@ -1,4 +1,6 @@
 import Summary3D from "./SummaryScene";
+import { Link, BrowserRouter as Router } from "react-router-dom";
+import "../CreativeLinkEffects/css/component.css";
 
 const Summary = ({ onToggle, showContent }) => {
   /* This CSS style is applied when the drawer is opened */
@@ -26,12 +28,41 @@ const Summary = ({ onToggle, showContent }) => {
       {/* <Summary3D /> */}
       <div className="summaryOuter">
         <div className="navbar">
-          <a>TechnicalSkills</a>
-          <a>WorkExperience</a>
-          <a>Qualifications</a>
-          <a>AlternativeExperience</a>
-          <a>Hobbies</a>
-          <a>Contact</a>
+          <nav class="cl-effect-21">
+            <a class="summary-menu-item" href="#TechnicalSkills">
+              TechnicalSkills
+            </a>
+          </nav>{" "}
+          <nav class="cl-effect-21">
+            <a class="summary-menu-item" href="#WorkExperience">
+              WorkExperience
+            </a>
+          </nav>{" "}
+          <nav class="cl-effect-21">
+            <a class="summary-menu-item" href="#Qualifications">
+              Qualifications
+            </a>
+          </nav>{" "}
+          <nav class="cl-effect-21">
+            <a class="summary-menu-item" href="#AlternativeExperience">
+              Alternative Experience
+            </a>
+          </nav>{" "}
+          <nav class="cl-effect-21">
+            <a class="summary-menu-item" href="#Hobbies">
+              Hobbies
+            </a>
+          </nav>{" "}
+          <nav class="cl-effect-21">
+            <a class="summary-menu-item" href="#Contact">
+              Contact
+            </a>
+          </nav>{" "}
+          <nav class="cl-effect-21">
+            <Link class="summary-menu-item" to="/Resume">
+              Tilt CV
+            </Link>
+          </nav>
         </div>
       </div>
       <div className="summaryOuter">

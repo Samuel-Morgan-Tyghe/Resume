@@ -6,36 +6,13 @@ function WorkExperience() {
   const [rNumber, setRNumber] = useState(0);
   const ref = useRef(null);
 
-  
-  useEffect(() => {
-    let rNum = ref.current.getBoundingClientRect().top;
-
-    // setRNumber(10);
-    // setRNumber(rNum);
- console.log(
-        "🚀 ~ file: WorkExperience.js ~ line 14 ~ handleScroll ~ setRNumber",
-        rNumber
-      );
-      console.log(
-        "🚀 ~ file: WorkExperience.js ~ line 14 ~ handleScroll ~ rNum",
-        rNum
-      );
-  });
-
-
- 
-  
   const handleScroll = () => {
-    // setRNumber(10);
-
     if (ref.current) {
-     
       if (ref.current.getBoundingClientRect().top <= 0) {
         setSticky(true);
         if (ref.current.getBoundingClientRect().bottom >= 500) {
           setSticky(true);
           setRNumber(ref.current.getBoundingClientRect().top);
-
         } else {
           setSticky(false);
         }
@@ -44,8 +21,6 @@ function WorkExperience() {
       }
     }
   };
-
-  
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -56,7 +31,7 @@ function WorkExperience() {
   }, []);
 
   return (
-    <div
+    <div id='WorkExperience' 
       className={`workExperience sticky-wrapper${isSticky ? " sticky" : ""}`}
       ref={ref}
     >
@@ -65,9 +40,9 @@ function WorkExperience() {
         <br /> work experience 
 
       </h1>             */}
-      <Summary3D rotateNumber={rNumber}  />
+      <Summary3D rotateNumber={rNumber} />
 
-      <div className="workExperienceInner">
+      <div  className="workExperienceInner">
         <div className="container">
           <h2>
             <a href="https://automated-art.co.uk/">

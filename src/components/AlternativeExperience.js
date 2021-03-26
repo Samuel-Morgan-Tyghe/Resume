@@ -1,7 +1,7 @@
 
 function AlternativeExperience() {
     return (
-        <div className="work">
+        <div id='AlternativeExperience'  className="work">
         <h2>
           <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g186370-d8488528-Reviews-The_Green_Bird_Cafe-Bath_Somerset_England.html">
             GreenBird Cafe
