@@ -21,6 +21,9 @@
   top: 0;
   /* background-color: black; */
 }
+.workExperience h2 {
+  font-size: 2em;
+}
 
 .workExperienceInner {
   min-height: 300vh;
@@ -125,5 +128,18 @@
   }
   .workExperienceInner {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .workExperience {
+    width: 100%;
+    height: 100%;
+    /* padding: 1em */
+  }
+  .workExperience h2 {
+    width: 100%;
+    /* height: 100%; */
+    /* padding: 1em */
   }
 }

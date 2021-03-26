@@ -26,7 +26,7 @@ const Summary = ({ onToggle, showContent }) => {
   return (
     <div className="summaryPage">
       {/* <Summary3D /> */}
-      <div className="summaryOuter">
+      <div className="summaryOuter laptop">
         <div className="navbar">
           <nav class="cl-effect-21">
             <a class="summary-menu-item" href="#TechnicalSkills">
