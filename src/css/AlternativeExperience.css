@@ -9,3 +9,25 @@
     padding: 20%;
 
 }
+
+@media only screen and (max-width: 768px) {
+  .work{
+
+    padding: 1em;
+  }
+
+  }
+
+  @media only screen and (max-width: 425px) {
+    .work {
+      width: 100%;
+      height: 100%;
+  padding: 1em
+    }
+    .work h1 {
+      font-size: 2em;
+      width: 100%;
+      /* height: 100%; */
+  /* padding: 1em */
+    }
+  }

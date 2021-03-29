@@ -1,17 +1,13 @@
-import ReactDOM from "react-dom";
 import React, { useRef, useState, Suspense } from "react";
 import { Canvas, useFrame, useLoader } from "react-three-fiber";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import model from "../Model/laptop.glb";
-// import { Html } from "@react-three/drei"
-import {
-  OrbitControls,
-  PerspectiveCamera,
-  OrthographicCamera,
-  Html,
-} from "@react-three/drei";
+import { GLTFLoader  } from "three/examples/jsm/loaders/GLTFLoader";
+
+import model from "../Model/laptop7.glb";
+import { OrbitControls, PerspectiveCamera, Html } from "@react-three/drei";
 
 function Model(props) {
+
+
   const gltf = useLoader(GLTFLoader, model);
   useFrame(() => {});
   return (
@@ -19,7 +15,8 @@ function Model(props) {
       {...props}
       object={gltf.scene}
       position={[0, props.rotationNum / 450, -5]}
-      scale={[8, 8, 8]}
+      // scale={[8, 8, 8]}
+      scale={[4, 4, 4]}
       rotation={[-props.rotationNum / 500 + 0.3, 0, 0]}
     />
   );
@@ -34,7 +31,6 @@ function Box(props) {
   const [active, setActive] = useState(false);
 
   // Rotate mesh every frame, this is outside of React without overhead
-
 
   return (
     <mesh
@@ -58,8 +54,9 @@ export default function Summary3D({ rotateNumber }) {
         {/* Project &amp;
         <br /> work experience */}
         <Canvas>
+          {/* <ambientLight intensity={3} /> */}
           <ambientLight intensity={1.5} />
-          <pointLight intensity={1.01} position={[10, 15, 40]} />
+          {/* <pointLight intensity={1.01} position={[10, 15, 40]} /> */}
           <Suspense fallback={<Box />}>
             {<Model rotationNum={rotateNumber} />}
           </Suspense>
@@ -73,9 +70,9 @@ export default function Summary3D({ rotateNumber }) {
               textAlign: "right",
               fontSize: "3em",
               right: "0",
-              
             }}
-          >Project &amp; work experience
+          >
+            Project &amp; work experience
             {/* <p
               // style={{
               //   color: "white",

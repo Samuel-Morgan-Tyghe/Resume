@@ -1,65 +1,44 @@
-import Summary3D from "./SummaryScene";
-import { Link, BrowserRouter as Router } from "react-router-dom";
-import "../CreativeLinkEffects/css/component.css";
+import { Link } from "react-router-dom";
+// import "../CreativeLinkEffects/css/component.css";
+import "../extensions/component.css";
 
 const Summary = ({ onToggle, showContent }) => {
-  /* This CSS style is applied when the drawer is opened */
-  const openedStyle = {
-    // maxWidth: "100%" /* max-with is 100% when the drawer is opened */,
-    opacity: 1 /* opened drawer is opaque */,
-    /* Upon transitioning to Open,
-     animate `max-width' for 0.5s and opacity for 0.2s */
-    height: "auto",
-    transition: "max-width 0.5s, opacity 0.2s",
-  };
-
-  /* This CSS style is applied when the drawer is closed */
-  const closedStyle = {
-    // maxWidth: 0 /* max-width is 0 in the closed drawer */,
-    opacity: 0 /* closed drawer is transparent */,
-    /* Upon transitioning to Closed,
-     animate `max-width' for 0.5s and opacity for 0.2s */
-    height: "0",
-    transition: "max-width 0.5s, opacity 0.2s",
-  };
-
   return (
     <div className="summaryPage">
-      {/* <Summary3D /> */}
-      <div className="summaryOuter">
+      <div className="summaryOuter laptop">
         <div className="navbar">
-          <nav class="cl-effect-21">
-            <a class="summary-menu-item" href="#TechnicalSkills">
+          <nav className="cl-effect-21">
+            <a className="summary-menu-item" href="#TechnicalSkills">
               TechnicalSkills
             </a>
           </nav>{" "}
-          <nav class="cl-effect-21">
-            <a class="summary-menu-item" href="#WorkExperience">
-              WorkExperience
+          <nav className="cl-effect-21">
+            <a className="summary-menu-item" href="#WorkExperience">
+              Work Experience
             </a>
           </nav>{" "}
-          <nav class="cl-effect-21">
-            <a class="summary-menu-item" href="#Qualifications">
+          <nav className="cl-effect-21">
+            <a className="summary-menu-item" href="#Qualifications">
               Qualifications
             </a>
           </nav>{" "}
-          <nav class="cl-effect-21">
-            <a class="summary-menu-item" href="#AlternativeExperience">
+          <nav className="cl-effect-21">
+            <a className="summary-menu-item" href="#AlternativeExperience">
               Alternative Experience
             </a>
           </nav>{" "}
-          <nav class="cl-effect-21">
-            <a class="summary-menu-item" href="#Hobbies">
+          <nav className="cl-effect-21">
+            <a className="summary-menu-item" href="#Hobbies">
               Hobbies
             </a>
           </nav>{" "}
-          <nav class="cl-effect-21">
-            <a class="summary-menu-item" href="#Contact">
+          <nav className="cl-effect-21">
+            <a className="summary-menu-item" href="#Contact">
               Contact
             </a>
           </nav>{" "}
-          <nav class="cl-effect-21">
-            <Link class="summary-menu-item" to="/Resume">
+          <nav className="cl-effect-21">
+            <Link className="summary-menu-item" to="/Resume">
               Tilt CV
             </Link>
           </nav>

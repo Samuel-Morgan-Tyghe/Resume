@@ -20,6 +20,8 @@ function Hobbies() {
         <p>
           <br />
         </p>
+     
+        
       </div>
     )
 }

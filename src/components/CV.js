@@ -8,14 +8,12 @@ import AlternativeExperience from "./AlternativeExperience";
 import Hobbies from "./Hobbies";
 import Contact from "./Contact";
 import { useState } from "react";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { Link   } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
 
 function CV() {
   const [showContent, setShowContent] = useState(false);
-  const showSettings = (event) => {
-    event.preventDefault();
-  };
+  
   // trying toggle reminder to trigger css
   const toggleReminder = () => {
     setShowContent(!showContent);
@@ -59,9 +57,7 @@ function CV() {
       <AlternativeExperience />
       <Hobbies />
       <Contact />
-      {/* <a href="#cv" className="btn btn-4">
-        Top
-      </a> */}
+     
     </div>
   );
 }

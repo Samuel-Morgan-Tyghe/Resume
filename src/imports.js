@@ -88,7 +88,6 @@ import c1 from "./images/375px/1.webp";
 
 import "./App.css";
 
-import Tilt from "./tilt.js";
 
 export const fourkRes = [
   i1,

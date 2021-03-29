@@ -82,3 +82,44 @@ h3,
    background-color: royalblue; 
 
 } */
+
+@media only screen and (max-width: 1024px) {
+  .summary {
+    width: 100%;
+  }
+  .navbar {
+    /* display: none; */
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+  .navbar {
+    visibility: hidden;
+    height: 50%;
+  }
+  .summaryPage{
+    height: 100vh;
+    /* width: 100%; */
+  }
+.bm-burger-button {
+visibility:visible;
+}
+.btn btn-4{
+  visibility:hidden;
+
+  
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+  .summaryPage{
+    background-position: -50px;
+    width: 100%;
+    height: 100%;
+
+  }
+}
+
