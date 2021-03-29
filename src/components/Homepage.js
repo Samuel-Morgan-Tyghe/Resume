@@ -1,8 +1,8 @@
 import React from "react";
-import { tabletRes, laptopRes, fourkRes, phoneRes } from "../imports";
+import { tabletRes, laptopRes, fourkRes } from "../imports";
 import Tilt from "../tilt";
 import { useState, useEffect } from "react";
-import { Route, Link, BrowserRouter as Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Homepage() {
   const [imageVarSize, setimageVarSize] = useState(fourkRes);
@@ -23,9 +23,9 @@ function Homepage() {
       }
     }
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", handleResize, {capture: true});
     return (_) => {
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener("resize", handleResize, {capture: true});
     };
   });
   return (

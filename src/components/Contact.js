@@ -15,12 +15,13 @@ function Contact() {
         <a
           href="https://www.linkedin.com/in/samuel-morgan-tyghe/"
           target="_blank"
+          rel="noreferrer"
         >
           LinkedIn
         </a>
       </p>
       <p>
-        <a href="https://github.com/Samuel-Morgan-Tyghe" target="_blank">
+        <a href="https://github.com/Samuel-Morgan-Tyghe" target="_blank" rel="noreferrer">
           Github
         </a>
       </p>

@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import TechnicalSkillsSVG from "../images/skills.svg";
 
 function TechnicalSkills() {
