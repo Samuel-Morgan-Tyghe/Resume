@@ -1,6 +1,5 @@
 import Homepage from "./components/Homepage";
 import CV from "./components/CV";
-// import "/App.css";
 import { Route, BrowserRouter as Router } from "react-router-dom";
 
 function App() {
